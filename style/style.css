@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+body {
+    background-color: darkslategrey;
+    padding: 0.5rem;
+}
+
+header {
+    background-color: lightgrey;
+    margin: 0 0 0.25rem;
+    text-align: center;
+}
+
+.flex-row {
+    display: flex;
+    margin-top: 1px;
+}
+
+.timeBox {
+    flex-grow: 1;
+    background-color: lightgrey;
+    width: 3.5rem;
+    padding: 0.25rem;
+    margin-right: 1px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.taskBox {
+    flex-grow: 12;
+    min-height: 4rem;
+}
+
+button {
+    flex-grow: 1;
+    border-radius: 0 0.5rem 0.5rem 0;
+    max-width: 3.2rem;
+    background-color: #1758e4;
+    color: white;
+}
+
+.past {
+    background-color: #dddddd;
+}
+
+.present {
+    background-color: #ff8888;
+}
+
+.future {
+    background-color: #88ff00;
+}
